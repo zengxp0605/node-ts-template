@@ -1,0 +1,30 @@
+{
+    "name": "node-ts-template",
+    "version": "0.0.1",
+    "index": "index.js",
+    "files": [
+        "bin",
+        "build",
+        "!build/__test__/"
+    ],
+    "scripts": {
+        "start": "node index.js",
+        "build": "rm -rvf build && tsc",
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "lint": "tslint 'src/**/*.ts?(x)'",
+        "lint:fix": "tslint --fix 'src/**/*.ts?(x)'"
+    },
+    "author": "Jason Zeng",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/jest": "^23.1.1",
+        "@types/node": "^10.3.4",
+        "jest": "^23.1.0",
+        "ts-jest": "^22.4.6",
+        "ts-node": "^6.1.1",
+        "tslint": "^5.10.0",
+        "tslint-config-airbnb": "^5.9.2",
+        "typescript": "^2.9.2"
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./build",
+    "sourceMap": false,
+    "strictNullChecks": true,
+    // "strict": true,
+    // "alwaysStrict": true,
+    // "listFiles": true, // 包含了哪些库，这个必要的时候还是很有用的
+    // "listEmittedFiles": true,
+    "lib": [
+      "es2015"
+    ],
+    // 生成 .d.ts 文件, 不能与 allowJs 同时使用
+    // "declaration": true,
+    // "declarationDir": "./d",
+    // 
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    // 是否监听文件变化,自动编译
+    "watch": true,
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "build",
+    "__test__",
+  ]
+}
