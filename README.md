@@ -17,6 +17,7 @@ npm run test:coverage
 
 ## 目录说明
 
+```
 Project
 |---build                 //编译后的js文件目录
 |---src                   //ts文件目录
@@ -31,3 +32,4 @@ Project
 |---jest.config.js        // jest 测试框架的配置
 |---tslint.json      
 |---package.json        
+```
