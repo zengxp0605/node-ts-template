@@ -5,7 +5,9 @@ import Game from './ctrl/game';
 // 兼容原来的写法
 const tools = require('./ori-code/tools');
 
-export class Index {
+// import { t } from '../libs/test';
+
+class Index {
     private params: {};
     private socketId: string;
 
@@ -32,3 +34,5 @@ export class Index {
         await tools.delay();
     }
 }
+
+export = Index;
