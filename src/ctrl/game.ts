@@ -1,5 +1,7 @@
 import { game } from "../interface/game";
 
+import './AB';
+
 export default class Game implements game {
     public str = 'game start init.';
 
